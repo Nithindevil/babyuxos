@@ -402,6 +402,12 @@ a {
 }
 
 @media (max-width : 800px) {
+  .nav img {
+    /* position: absolute; */
+    width: 40%;
+    /* top: 0; */
+  }
+
   .tokenmic {
     flex-direction: column;
     justify-content: center;
@@ -430,7 +436,7 @@ a {
   }
 
   .nav-tab {
-    font-size: 1.2vw;
+    font-size: 2.5vw;
   }
 }
 
